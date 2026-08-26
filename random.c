@@ -3,6 +3,6 @@
 
 char randchar(){
     char returned;
-    returned = rand() % 26 + 97;
+    returned = rand() % 26 + 'A';
 	return returned;
 }
